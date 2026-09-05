@@ -65,6 +65,8 @@ resource, err := eksResourceDetector.Detect(context.Background())
 EKS resource detector captures following EKS environment attributes
 
 ```
+cloud.provider
+cloud.platform
 k8s.cluster.name
 container.id
 ```
